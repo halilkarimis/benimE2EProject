@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="Resources.ExtentReporterNG"/>
+</listeners>
+
+	<test name="Open QAClickAcademy">
+		<classes>
+			<class name="Academy.benime2eProject.homePage" />
+		</classes>
+	</test>
+	<test name="Deneme">
+		<classes>
+			<class name="Academy.benime2eProject.AppTest" />
+		</classes>
+	</test>
+	<test name="Open Google Page">
+		<classes>
+			<class name="Academy.benime2eProject.anotherPage" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
